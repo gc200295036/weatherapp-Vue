@@ -90,7 +90,7 @@ export default {
       return Math.floor(Math.random() * Math.floor(max));
     },
     getRandomColour() {
-      return `rgb(${this.getRandomInt}, ${this.getRandomInt}, ${this.getRandomInt})`;
+      return `rgb(${this.getRandomInt()}, ${this.getRandomInt()}, ${this.getRandomInt()})`;
     },
   },
   computed: {
